@@ -4,22 +4,19 @@ body {
 
 h1 {
     font-family: verdana;
+    color:rgb(196, 196, 196);
 }
 
 a {
     font-size: larger;
     font-family:verdana;
     border: 10px;
-    background-color: black;
-    color:aliceblue;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     transition: background-color 0.25s ease;
 }
 
 a:hover {
     background-color: rgba(0, 74, 15, 0.769);
     transition: background-color 0.25s ease;
-}
-
-a:hover::target-text {
-    content: "Escape the matrix?";
 }
