@@ -3,13 +3,19 @@ h1 {
 }
 
 button {
-    border: 20px;
+    font-size: larger;
+    font-family:verdana;
+    border: 10px;
     background-color: black;
     color:aliceblue;
-    transition: background-color 0.5s ease;
+    transition: background-color 0.25s ease;
 }
 
 button:hover {
-    background-color: rgb(104, 104, 104);
-    transition: background-color 0.5s ease;
+    background-color: rgba(0, 74, 15, 0.769);
+    transition: background-color 0.25s ease;
+}
+
+button:hover::target-text {
+    content: "Escape the matrix?";
 }
