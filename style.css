@@ -1,3 +1,9 @@
 h1 {
     font-family: verdana;
 }
+
+button {
+    border: 20px;
+    background-color: black;
+    color:aliceblue;
+}
